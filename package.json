@@ -1,9 +1,9 @@
 {
-  "export":"next export",
   "name": "roshanojha",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "export":"next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
