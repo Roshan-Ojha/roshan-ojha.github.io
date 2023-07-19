@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
     output:"export",
     images: {
         loader:'akamai',
@@ -11,4 +10,4 @@ const nextConfig = {
 
 }
 
-export default nextConfig;
+module.exports = nextConfig
