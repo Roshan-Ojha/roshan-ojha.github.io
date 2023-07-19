@@ -1,0 +1,25 @@
+name: NextPipeline
+
+
+on:      //on what event you want to run this pipeline
+  push:
+    branches: [main]''
+
+jobs:    //should have all the job listed in the pipelind
+  lintTest:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v2  
+      - name: Install Dependencies
+        run: |
+          echo: "Running Installing dependecies...."
+          npm install
+
+      - name: Run Linting
+        run: |
+          echo "Running Lintin tests ..."
+          npm run lint
+        env:
+          CI: true
