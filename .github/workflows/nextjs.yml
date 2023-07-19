@@ -3,7 +3,7 @@ name: NextPipeline
 
 on:      
   push:
-    branches: [main]''
+    branches: [main]
 
 jobs:
   lintTest:
