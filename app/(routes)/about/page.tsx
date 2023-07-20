@@ -36,7 +36,7 @@ export default function About() {
             coding game!
             <br />
             <br />
-            Let's talk with me
+            Let&apos;s talk with me
             <br />
             <div className="font-[450]">roshanojha65@gmail.com</div>
             <div className="flex flex-row w-[200px] space-x-[30px] mt-[20px]">
