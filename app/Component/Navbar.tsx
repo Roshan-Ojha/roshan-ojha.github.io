@@ -1,14 +1,29 @@
 "use client";
 import { useRouter } from "next/navigation";
-export default function Navbar() {
+
+interface Props {
+  page: string;
+}
+
+function Navbar(props: Props) {
+  console.log(props.page);
   const router = useRouter();
   return (
     <div className="w-full">
       <div className="flex flex-row justify-center w-full mt-5 align-middle h-30 ">
         <div className="flex flex-row self-center justify-center align-middle ">
-          <div className="px-10 text-[#565c60] hover:text-[#007aff] cursor-pointer">Home</div>
           <div
-            className="px-10 text-[#565c60] hover:text-[#007aff] cursor-pointer"
+            className={`px-10  hover:text-[#007aff] ${
+              props.page == "home" ? "text-[#007aff]" : "text-[#565c60]"
+            } cursor-pointer`}
+            onClick={() => router.push("/")}
+          >
+            Home
+          </div>
+          <div
+            className={`px-10  hover:text-[#007aff] ${
+              props.page == "about" ? "text-[#007aff]" : "text-[#565c60]"
+            } cursor-pointer`}
             onClick={() => router.push("/about")}
           >
             About
@@ -16,7 +31,11 @@ export default function Navbar() {
           <div className="px-10 text-[#565c60] hover:text-[#007aff] cursor-pointer">
             Portfolio
           </div>
-          <div className="px-10 text-[#565c60] hover:text-[#007aff] cursor-pointer">
+          <div
+            className={`px-10 text-[#565c60] hover:text-[#007aff] ${
+              props.page === "contact" ? "text-[#007aff]" : "text-[#565c60]"
+            } cursor-pointer`}
+          >
             Contact
           </div>
         </div>
@@ -27,3 +46,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;

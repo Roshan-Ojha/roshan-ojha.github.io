@@ -8,7 +8,7 @@ import roshan from "./Assets/roshan.png"
 export default function Home() {
   return (
     <div className="w-full">
-      <Navbar></Navbar>
+      <Navbar page="home"></Navbar>
       <div className="mt-[130px] flex flex-row justify-center space-x-[100px]">
         <div className="mt-[135px] flex w-[500px] flex-col">
           <div className="text-[50px] font-[475] leading-[50px] text-[#212121]">
