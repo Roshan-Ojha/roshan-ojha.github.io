@@ -6,7 +6,7 @@ const nextConfig = {
         path:'',
     },
 
-    assetPrefix:"./",
+    assetPrefix:"./",  
 
 }
 
