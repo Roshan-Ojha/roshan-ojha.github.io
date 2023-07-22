@@ -1,9 +1,8 @@
-
 import Navbar from "./Component/Navbar";
 import Image from "next/image";
 // import roshan from "http://roshanojha.com.np/Assets/roshan.png";
 
-import roshan from "./Assets/roshan.png"
+import roshan from "./Assets/roshan.png";
 
 export default function Home() {
   return (

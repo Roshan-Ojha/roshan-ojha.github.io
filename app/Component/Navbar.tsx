@@ -32,9 +32,10 @@ function Navbar(props: Props) {
             Portfolio
           </div>
           <div
-            className={`px-10 text-[#565c60] hover:text-[#007aff] ${
+            className={`px-10 hover:text-[#007aff] ${
               props.page === "contact" ? "text-[#007aff]" : "text-[#565c60]"
             } cursor-pointer`}
+            onClick={() => router.push("/contact")}
           >
             Contact
           </div>
