@@ -1,8 +1,12 @@
+"use client"
 import Navbar from "@/app/Component/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faInbox } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   return (
@@ -65,11 +69,11 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="w-[1095px] flex flex-row self-center mt-[75px]">
-        <div className="flex flex-col bg-white p-[50px] shadow">
-          <div className="flex flex-col text-[35px]">
+      <div className="w-[1095px] flex flex-row self-center  mt-[75px] space-x-[100px]">
+        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow">
+          <div className="flex flex-col text-[27px]">
             Get in Touch
-            <hr className="self-start w-[210px] h-[3px] bg-green-500 rounded" />
+            <hr className="self-start w-[160px] h-[3px] bg-green-500 rounded" />
           </div>
 
           <div className="mt-[50px]">
@@ -100,6 +104,66 @@ export default function Contact() {
                 className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]"
               ></input>
             </form>
+          </div>
+        </div>
+
+        <div className="flex  flex-col w-[160px] mt-[25px]">
+          <div className="flex flex-col text-[27px]">
+            Message Me
+            <hr className="self-start w-[30px] h-[3px] bg-green-500 rounded mt-[15px]" />
+          </div>
+          <div className="mt-[35px] text-[#6c6c6b]">
+            Please feel free to call or email me, or use my contact form to get
+            in touch with me.
+            <br />
+            <br />I look forward to hearing from you!
+          </div>
+          <div className="flex flex-row w-[200px] space-x-[30px] mt-[20px]">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/roshan-ojha-78832a1aa/",
+                  "_blank"
+                )
+              }
+              style={{
+                height: "30px",
+                width: "30px",
+                background: "white",
+                color: "#0077b5",
+                cursor: "pointer",
+              }}
+            />
+            <FontAwesomeIcon
+              onClick={() =>
+                window.open("https://www.facebook.com/roshan.ojha01", "_blank")
+              }
+              icon={faFacebook}
+              style={{
+                height: "30px",
+                width: "30px",
+                background: "white",
+                color: "#0987ee",
+                cursor: "pointer",
+              }}
+            />
+            <FontAwesomeIcon
+              onClick={() =>
+                window.open(
+                  "https://www.instagram.com/r.o.s.h.a.n__o.j.h.a/",
+                  "_blank"
+                )
+              }
+              icon={faInstagram}
+              style={{
+                height: "30px",
+                width: "30px",
+                background: "white",
+                color: "#f51240",
+                cursor: "pointer",
+              }}
+            />
           </div>
         </div>
       </div>

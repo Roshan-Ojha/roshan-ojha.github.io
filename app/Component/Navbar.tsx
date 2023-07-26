@@ -40,7 +40,7 @@ function Navbar(props: Props) {
             Contact
           </div>
         </div>
-        <div className="ml-[235px] rounded bg-[#007aff] px-5 py-3 text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]">
+        <div className="ml-[235px] border-[1px] cursor-pointer rounded bg-[#007aff] px-5 py-3 text-white hover:border-[#007aff]  hover:bg-white hover:text-[#007aff]">
           Hire Me
         </div>
       </div>
