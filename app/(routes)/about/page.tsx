@@ -114,7 +114,7 @@ export default function About() {
           your website dreams come true!
         </div>
         <a href="resumeroshan.pdf" download="roshan">
-          <div className="mt-[25px] flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]">
+          <div className="mt-[25px] border-[1px] flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]">
             Download CV
           </div>
         </a>

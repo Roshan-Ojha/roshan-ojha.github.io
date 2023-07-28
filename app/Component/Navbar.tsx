@@ -28,7 +28,12 @@ function Navbar(props: Props) {
           >
             About
           </div>
-          <div className="px-10 text-[#565c60] hover:text-[#007aff] cursor-pointer">
+          <div
+            className={`px-10  hover:text-[#007aff] ${
+              props.page == "portfolio" ? "text-[#007aff]" : "text-[#565c60]"
+            } cursor-pointer`}
+            onClick={() => router.push("/portfolio")}
+          >
             Portfolio
           </div>
           <div
@@ -40,7 +45,7 @@ function Navbar(props: Props) {
             Contact
           </div>
         </div>
-        <div className="ml-[235px] border-[1px] cursor-pointer rounded bg-[#007aff] px-5 py-3 text-white hover:border-[#007aff]  hover:bg-white hover:text-[#007aff]">
+        <div className="ml-[235px] border-[1px] cursor-pointer rounded bg-[#007aff] px-5 py-3 text-white hover:border-[#007aff]  hover:bg-white hover:text-[#007aff]" onClick={()=>window.open("https://www.upwork.com/freelancers/~013668305659fa27c7","_blank")}>
           Hire Me
         </div>
       </div>
