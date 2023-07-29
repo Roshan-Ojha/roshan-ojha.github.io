@@ -99,19 +99,18 @@ export default function About() {
         </div>
         <br />
         <div className="leading-[30px] mt-[20px] text-[#6c6c6b]">
-          Hey there! Need help with your website? Look no further! We offer
+          Hey there! Need help with your website? Look no further! I offer
           top-notch website development services that will make your online
           presence shine. Whether you need a brand new website from scratch or
-          want to revamp your existing one, our team of skilled developers will
-          work their magic to create a stunning and user-friendly site that
-          perfectly represents your brand. Already have a website but need some
-          changes? No problem! We can edit and update your website to ensure
-          it&apos;s always up-to-date and in line with your evolving business
-          needs. And if you&apos;re thinking about migrating your website to a
-          new platform or hosting provider, we&apos;ve got you covered there
-          too! Our experts will handle the entire migration process smoothly and
-          efficiently, giving you peace of mind. So, why wait? Let&apos;s make
-          your website dreams come true!
+          want to revamp your existing one, I, as a skilled developer, will work
+          my magic to create a stunning and user-friendly site that perfectly
+          represents your brand. Already have a website but need some changes?
+          No problem! I can edit and update your website to ensure it&apos;s always
+          up-to-date and in line with your evolving business needs. And if
+          you&apos;re thinking about migrating your website to a new platform or
+          hosting provider, I&apos;ve got you covered there too! I will handle the
+          entire migration process smoothly and efficiently, giving you peace of
+          mind. So, why wait? Let&apos;s make your website dreams come true!
         </div>
         <a href="resumeroshan.pdf" download="roshan">
           <div className="mt-[25px] border-[1px] flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]">
@@ -148,8 +147,9 @@ export default function About() {
             <div className="text-[25px]">Flask</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               Flask is a super cool Python web framework that makes it easy to
-              build web applications. It&apos;s lightweight, flexible, and perfect
-              for beginners or those who want to quickly prototype their ideas.
+              build web applications. It&apos;s lightweight, flexible, and
+              perfect for beginners or those who want to quickly prototype their
+              ideas.
             </div>
           </div>
         </div>

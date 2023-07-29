@@ -45,7 +45,15 @@ function Navbar(props: Props) {
             Contact
           </div>
         </div>
-        <div className="ml-[235px] border-[1px] cursor-pointer rounded bg-[#007aff] px-5 py-3 text-white hover:border-[#007aff]  hover:bg-white hover:text-[#007aff]" onClick={()=>window.open("https://www.upwork.com/freelancers/~013668305659fa27c7","_blank")}>
+        <div
+          className="ml-[235px] border-[1px] cursor-pointer rounded bg-[#007aff] px-5 py-3 text-white hover:border-[#007aff]  hover:bg-white hover:text-[#007aff]"
+          onClick={() =>
+            window.open(
+              "https://www.upwork.com/freelancers/~013668305659fa27c7",
+              "_blank"
+            )
+          }
+        >
           Hire Me
         </div>
       </div>
