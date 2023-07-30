@@ -17,12 +17,12 @@ export default function About() {
         <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded" />
       </div>
 
-      <div className="flex flex-row justify-center align-middle mt-[100px] ">
-        <div className="mt-[45px] mr-[100px]">
+      <div className="flex flex-row justify-center align-middle mt-[100px] max-[1280px]:flex-col max-[1280px]:self-center max-[1280px]:mt-[50px] ">
+        <div className="mt-[45px] mr-[100px] max-[1280px]:self-center max-[1280px]:mt-[25px]">
           <Image src={roshanojha} alt="" width={300} height={300}></Image>
         </div>
 
-        <div className="flex flex-col w-[650px] h-fit  ">
+        <div className="flex flex-col w-[650px] h-fit max-[660px]:w-[480px] max-[1280px]: mt-[30px]">
           <div className="flex flex-col text-[25px]">
             Designing With Passion While Exploring The World
             <hr className="self-start w-[120px] h-[3px] bg-green-500 rounded mt-[5px]" />
@@ -92,7 +92,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="self-center flex flex-col w-[535px] justify-start align-top mt-[60px] mb-[30px]">
+      <div className="self-center flex flex-col w-[535px] justify-start align-top mt-[60px] mb-[30px] max-[660px]:w-[480px]">
         <div className="flex flex-col text-[35px] leading-[90px]">
           My Services
           <hr className="self-start w-[120px] h-[3px] bg-green-500 rounded" />
@@ -105,28 +105,29 @@ export default function About() {
           want to revamp your existing one, I, as a skilled developer, will work
           my magic to create a stunning and user-friendly site that perfectly
           represents your brand. Already have a website but need some changes?
-          No problem! I can edit and update your website to ensure it&apos;s always
-          up-to-date and in line with your evolving business needs. And if
-          you&apos;re thinking about migrating your website to a new platform or
-          hosting provider, I&apos;ve got you covered there too! I will handle the
-          entire migration process smoothly and efficiently, giving you peace of
-          mind. So, why wait? Let&apos;s make your website dreams come true!
+          No problem! I can edit and update your website to ensure it&apos;s
+          always up-to-date and in line with your evolving business needs. And
+          if you&apos;re thinking about migrating your website to a new platform
+          or hosting provider, I&apos;ve got you covered there too! I will
+          handle the entire migration process smoothly and efficiently, giving
+          you peace of mind. So, why wait? Let&apos;s make your website dreams
+          come true!
         </div>
-        <a href="resumeroshan.pdf" download="roshan">
-          <div className="mt-[25px] border-[1px] flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]">
+        <a href="resumeroshan.pdf" download="roshan" className="max-[1280px]:self-center max-[1280px]:mt-[10px]">
+          <div className="mt-[25px] border-[1px] flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] ">
             Download CV
           </div>
         </a>
       </div>
 
-      <div className="flex flex-col self-center justify-center align-top mb-[30px] mt-[80px]">
-        <div className="self-center flex flex-col text-[35px] justify-center leading-[90px]">
+      <div className="flex flex-col self-center justify-center align-top mb-[30px] mt-[80px] ">
+        <div className="self-center flex flex-col text-[35px] justify-center leading-[90px] max-[660px]:w-[480px]">
           Work Experience
-          <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded" />
+          <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded max-[660px]:self-start" />
         </div>
-        <div className="flex flex-row space-x-[40px] mt-[50px]">
-          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px]">
-            <div className="text-[25px]">React.js</div>
+        <div className="flex flex-row space-x-[40px] mt-[50px]  max-[1280px]:flex-col max-[1280px]:justify-center max-[1280px]:align-middle max-[1280px]:space-x-[0px] max-[660px]:w-[480px] max-[1280px]: space-y-[40px]">
+          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
+            <div className="text-[25px] max-[1280px]:self-center">React.js</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               React.js is a badass JavaScript library that makes building user
               interfaces a breeze. With its component-based architecture and
@@ -134,8 +135,8 @@ export default function About() {
               applications like a boss.
             </div>
           </div>
-          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px]">
-            <div className="text-[25px]">Next.js</div>
+          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
+            <div className="text-[25px] max-[1280px]:self-center">Next.js</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               Next.js is a powerful framework for building server-side rendered
               React applications. It provides an easy-to-use and efficient way
@@ -143,8 +144,8 @@ export default function About() {
               building complex and high-performance web applications.
             </div>
           </div>
-          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px]">
-            <div className="text-[25px]">Flask</div>
+          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
+            <div className="text-[25px] max-[1280px]:self-center">Flask</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               Flask is a super cool Python web framework that makes it easy to
               build web applications. It&apos;s lightweight, flexible, and

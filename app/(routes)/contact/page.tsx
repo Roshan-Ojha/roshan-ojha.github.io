@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="flex flex-row self-center mt-[125px] space-x-[60px]">
+      <div className="flex flex-row self-center mt-[125px] space-x-[60px] max-[1110px]:flex-col max-[1110px]:space-x-[0px] max-[1110px]:space-y-[50px] max-[1110px]:mt-[70px]">
         <div className="w-[325px] h-[150px] bg-white flex align-middle justify-center flex-col space-y-[20px] shadow-lg rounded">
           <FontAwesomeIcon
             icon={faMobileScreenButton}
@@ -69,16 +69,16 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="w-[1095px] flex flex-row self-center  mt-[75px] space-x-[100px]">
-        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow">
-          <div className="flex flex-col text-[27px]">
+      <div className="w-[1095px] flex flex-row self-center  mt-[75px] space-x-[100px] max-[1110px]:flex-col max-[1110px]:px-[0px] max-[1110px]:space-x-[0px] ">
+        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow max-[1110px]:px-[10px] max-[1110px]:self-center max-[1110px]:w-[450px] max-[1110px]:py-[30px]">
+          <div className="flex flex-col text-[27px] max-[1110px]:self-center">
             Get in Touch
             <hr className="self-start w-[160px] h-[3px] bg-green-500 rounded" />
           </div>
 
           <div className="mt-[50px]">
             <form
-              className="flex flex-col space-y-[20px]"
+              className="flex flex-col space-y-[20px] "
               action="mailto:roshanojha65@gmail.com"
               method="post"
               encType="text/plain"
@@ -86,31 +86,31 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa]"
+                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[430px]"
               ></input>
               <input
                 type="text"
                 placeholder="Enter Email Address"
-                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa]"
+                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[430px]"
                 required
               ></input>
               <textarea
                 placeholder="Enter your message"
-                className="w-[500px] h-[140px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa]"
+                className="w-[500px] h-[140px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[430px]"
               ></textarea>
               <input
                 type="submit"
                 value="Send message"
-                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff]"
+                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:self-end max-[1110px]:w-[430px]"
               ></input>
             </form>
           </div>
         </div>
 
-        <div className="flex  flex-col w-[160px] mt-[25px]">
+        <div className="flex  flex-col w-[160px] mt-[25px] max-[1110px]:self-center max-[1110px]:mt-[30px]">
           <div className="flex flex-col text-[27px]">
             Message Me
-            <hr className="self-start w-[30px] h-[3px] bg-green-500 rounded mt-[15px]" />
+            <hr className="self-start w-[30px] h-[3px] bg-green-500 rounded mt-[15px] max-[1110px]:self-center " />
           </div>
           <div className="mt-[35px] text-[#6c6c6b]">
             Please feel free to call or email me, or use my contact form to get
