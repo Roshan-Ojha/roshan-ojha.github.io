@@ -1,13 +1,17 @@
 import Navbar from "./Component/Navbar";
 import Image from "next/image";
 // import roshan from "http://roshanojha.com.np/Assets/roshan.png";
-
 import roshan from "./Assets/roshan.png";
 
+
 export default function Home() {
+
+  
+
   return (
     <div className="w-full">
       <Navbar page="home"></Navbar>
+      
       <div className="mt-[130px] flex flex-row justify-center space-x-[100px] max-[1110px]:space-x-[0px] max-[1110px]:flex-col max-[1110px]:mt-[25px]">
         <div className="mt-[135px] flex w-[500px] flex-col max-[1110px]:self-center max-[1110px]:mt-[10px]">
           <div className="text-[50px] font-[475] leading-[50px] text-[#212121]">

@@ -8,7 +8,7 @@ import onlinestore from "../../Assets/onlinestore.png";
 import searchproduct from "../../Assets/searchproduct.png";
 
 export default function Portfolio() {
-  const [position, setposition] = useState(0);
+
   const carousel =  useRef<HTMLDivElement>(null);
   return (
     <div className="flex flex-col justify-center">
