@@ -14,7 +14,7 @@ function Navbar(props: Props) {
   const router = useRouter();
   return (
     <div className="w-full">
-      <div className="invisible flex flex-col max-[885px]:visible relative">
+      <div className="invisible flex flex-col max-[885px]:visible relative m-3">
         <FontAwesomeIcon icon={faBars} style={{height:"30px",width:"30px"}} onClick={()=>setresponsive(!responsive)}></FontAwesomeIcon>
         <div className={`absolute w-full pl-[10px] top-[40px] bg-white ${responsive?"visible":"invisible"}`}>
         <div className="h-[45px] flex align-middle items-center text-[20px] text-[#6c6c6b] focus:text-[#007aff]" onClick={() => router.push("/")}>Home</div>

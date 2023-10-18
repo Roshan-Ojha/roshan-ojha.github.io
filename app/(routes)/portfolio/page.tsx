@@ -11,7 +11,7 @@ export default function Portfolio() {
 
   const carousel =  useRef<HTMLDivElement>(null);
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col w-full">
       <Navbar page="portfolio"></Navbar>
       <div className="flex flex-col self-center text-[50px] mt-[35px] ">
         Portfolio

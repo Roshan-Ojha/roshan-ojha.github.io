@@ -9,7 +9,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
-    <div className="flex flex-col justify-center align-middle">
+    <div className="flex flex-col w-full">
       <Navbar page="about"></Navbar>
       <div className="flex flex-col self-center text-[50px] mt-[35px] ">
         About Me
