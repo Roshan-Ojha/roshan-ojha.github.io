@@ -17,12 +17,12 @@ export default function About() {
         <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded" />
       </div>
 
-      <div className="flex flex-row justify-center align-middle mt-[100px] max-[1280px]:flex-col max-[1280px]:self-center max-[1280px]:mt-[50px] ">
+      <div className="flex flex-row justify-center align-middle mt-[100px] max-[1280px]:flex-col max-[1280px]:self-center max-[1280px]:mt-[50px] max-[1110px]:w-[320px]">
         <div className="mt-[45px] mr-[100px] max-[1280px]:self-center max-[1280px]:mt-[25px]">
           <Image src={roshanojha} alt="" width={300} height={300}></Image>
         </div>
 
-        <div className="flex flex-col w-[650px] h-fit  max-[1280px]: mt-[30px] max-[1110px]:w-[350x]">
+        <div className="flex flex-col w-[650px] h-fit  max-[1280px]: mt-[30px] max-[1110px]:w-[320px]">
           <div className="flex flex-col text-[25px]">
             Designing With Passion While Exploring The World
             <hr className="self-start w-[120px] h-[3px] bg-green-500 rounded mt-[5px]" />
@@ -92,7 +92,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="self-center flex flex-col w-[535px] justify-start align-top mt-[60px] mb-[30px] max-[1110px]:w-[350px]">
+      <div className="self-center flex flex-col w-[535px] justify-start align-top mt-[60px] mb-[30px] max-[1110px]:w-[320px]">
         <div className="flex flex-col text-[35px] leading-[90px]">
           My Services
           <hr className="self-start w-[120px] h-[3px] bg-green-500 rounded" />
@@ -125,7 +125,7 @@ export default function About() {
           Work Experience
           <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded max-[660px]:self-start" />
         </div>
-        <div className="flex flex-row space-x-[40px] mt-[50px]  max-[1280px]:flex-col max-[1280px]:justify-center max-[1280px]:align-middle max-[1280px]:space-x-[0px] max-[1110px]:w-[350px] max-[1280px]: space-y-[40px]">
+        <div className="flex flex-row space-x-[40px] mt-[50px]  max-[1280px]:flex-col max-[1280px]:justify-center max-[1280px]:align-middle max-[1280px]:space-x-[0px] max-[1110px]:w-[320px] max-[1280px]: space-y-[40px]">
           <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
             <div className="text-[25px] max-[1280px]:self-center">React.js</div>
             <div className="mt-[20px] text-[#6c6c6b]">
