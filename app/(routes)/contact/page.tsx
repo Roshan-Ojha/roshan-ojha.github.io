@@ -76,7 +76,7 @@ export default function Contact() {
             <hr className="self-start w-[160px] h-[3px] bg-green-500 rounded" />
           </div>
 
-          <div className="mt-[50px]">
+          <div className="mt-[50px] max-[1110px]:self-center">
             <form
               className="flex flex-col space-y-[20px] "
               action="mailto:roshanojha65@gmail.com"
