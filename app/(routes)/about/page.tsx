@@ -121,7 +121,7 @@ export default function About() {
       </div>
 
       <div className="flex flex-col self-center justify-center align-top mb-[30px] mt-[80px] ">
-        <div className="self-center flex flex-col text-[35px] justify-center leading-[90px] max-[1110px]:w-[350px]">
+        <div className="self-center flex flex-col text-[35px] justify-center leading-[90px] max-[1110px]:w-[320px]">
           Work Experience
           <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded max-[660px]:self-start" />
         </div>
