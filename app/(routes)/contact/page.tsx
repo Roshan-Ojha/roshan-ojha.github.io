@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="flex flex-row self-center mt-[125px] space-x-[60px] max-[1110px]:flex-col max-[1110px]:space-x-[0px] max-[1110px]:space-y-[50px] max-[1110px]:mt-[70px]">
+      <div className="flex flex-row self-center mt-[125px] space-x-[60px] max-[1110px]:flex-col max-[1110px]:space-x-[0px] max-[1110px]:space-y-[50px] max-[1110px]:mt-[70px] ">
         <div className="w-[325px] h-[150px] bg-white flex align-middle justify-center flex-col space-y-[20px] shadow-lg rounded">
           <FontAwesomeIcon
             icon={faMobileScreenButton}
@@ -69,8 +69,8 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="w-[1095px] flex flex-row self-center  mt-[75px] space-x-[100px] max-[1110px]:flex-col max-[1110px]:px-[0px] max-[1110px]:space-x-[0px] ">
-        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow max-[1110px]:px-[10px] max-[1110px]:self-center max-[1110px]:w-[380px] max-[1110px]:py-[30px]">
+      <div className="w-[1095px] flex flex-row self-center  mt-[75px] space-x-[100px] max-[1110px]:flex-col max-[1110px]:px-[0px] max-[1110px]:space-x-[0px] max-[1110px]:w-[320px] ">
+        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow max-[1110px]:px-[10px] max-[1110px]:self-center  max-[1110px]:py-[30px]">
           <div className="flex flex-col text-[27px] max-[1110px]:self-center">
             Get in Touch
             <hr className="self-start w-[160px] h-[3px] bg-green-500 rounded" />
@@ -110,7 +110,7 @@ export default function Contact() {
         <div className="flex  flex-col w-[160px] mt-[25px] max-[1110px]:self-center max-[1110px]:mt-[30px]  max-[1110px]:w-[320px]">
           <div className="flex flex-col text-[27px]">
             Message Me
-            <hr className="self-start w-[30px] h-[3px] bg-green-500 rounded mt-[15px] max-[1110px]:self-center " />
+            <hr className="self-start w-[30px] h-[3px] bg-green-500 rounded mt-[15px] max-[1110px]:self-start max-[1110px]:w-[160px] " />
           </div>
           <div className="mt-[35px] text-[#6c6c6b]">
             Please feel free to call or email me, or use my contact form to get
@@ -118,7 +118,7 @@ export default function Contact() {
             <br />
             <br />I look forward to hearing from you!
           </div>
-          <div className="flex flex-row w-[200px] space-x-[30px] mt-[20px]">
+          <div className="flex flex-row w-[200px] space-x-[30px] mt-[20px] max-[1110px]:self-center max-[1110px]:mb-[20px]">
             <FontAwesomeIcon
               icon={faLinkedin}
               onClick={() =>
