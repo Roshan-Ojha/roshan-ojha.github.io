@@ -101,7 +101,7 @@ export default function Contact() {
               <input
                 type="submit"
                 value="Send message"
-                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:self-end"
+                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:w-[320px]"
               ></input>
             </form>
           </div>
