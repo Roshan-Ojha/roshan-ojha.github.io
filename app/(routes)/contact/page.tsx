@@ -86,28 +86,28 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[430px]"
+                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[320px]"
               ></input>
               <input
                 type="text"
                 placeholder="Enter Email Address"
-                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[430px]"
+                className="w-[500px] h-[40px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[320px]"
                 required
               ></input>
               <textarea
                 placeholder="Enter your message"
-                className="w-[500px] h-[140px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[430px]"
+                className="w-[500px] h-[140px] outline-none  border-[1px] focus:border-[2px] rounded-[5px] bg-[#fafafa] max-[1110px]:w-[320px]"
               ></textarea>
               <input
                 type="submit"
                 value="Send message"
-                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:self-end max-[1110px]:w-[430px]"
+                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:self-end max-[1110px]:w-[320px]"
               ></input>
             </form>
           </div>
         </div>
 
-        <div className="flex  flex-col w-[160px] mt-[25px] max-[1110px]:self-center max-[1110px]:mt-[30px]">
+        <div className="flex  flex-col w-[160px] mt-[25px] max-[1110px]:self-center max-[1110px]:mt-[30px]  max-[1110px]:w-[320px]">
           <div className="flex flex-col text-[27px]">
             Message Me
             <hr className="self-start w-[30px] h-[3px] bg-green-500 rounded mt-[15px] max-[1110px]:self-center " />
