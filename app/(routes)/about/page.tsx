@@ -120,13 +120,13 @@ export default function About() {
         </a>
       </div>
 
-      <div className="flex flex-col self-center justify-center align-top mb-[30px] mt-[80px] ">
+      <div className="flex flex-col self-center justify-center align-top mb-[30px] mt-[80px]  max-[1110px]:w-[320px]">
         <div className="self-center flex flex-col text-[35px] justify-center leading-[90px] max-[1110px]:w-[320px]">
           Work Experience
           <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded max-[660px]:self-start" />
         </div>
         <div className="flex flex-row space-x-[40px] mt-[50px]  max-[1280px]:flex-col max-[1280px]:justify-center max-[1280px]:align-middle max-[1280px]:space-x-[0px] max-[1110px]:w-[320px] max-[1280px]: space-y-[40px]">
-          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
+          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center  max-[1110px]:w-[320px]">
             <div className="text-[25px] max-[1280px]:self-center">React.js</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               React.js is a badass JavaScript library that makes building user
@@ -135,7 +135,7 @@ export default function About() {
               applications like a boss.
             </div>
           </div>
-          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
+          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center  max-[1110px]:w-[320px]">
             <div className="text-[25px] max-[1280px]:self-center">Next.js</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               Next.js is a powerful framework for building server-side rendered
@@ -144,7 +144,7 @@ export default function About() {
               building complex and high-performance web applications.
             </div>
           </div>
-          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center">
+          <div className="flex flex-col bg-white w-[400px] h-[300px] p-[20px] max-[1280px]:self-center  max-[1110px]:w-[320px]">
             <div className="text-[25px] max-[1280px]:self-center">Flask</div>
             <div className="mt-[20px] text-[#6c6c6b]">
               Flask is a super cool Python web framework that makes it easy to
