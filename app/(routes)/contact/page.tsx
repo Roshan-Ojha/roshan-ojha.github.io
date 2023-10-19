@@ -70,7 +70,7 @@ export default function Contact() {
       </div>
 
       <div className="w-[1095px] flex flex-row self-center  mt-[75px] space-x-[100px] max-[1110px]:flex-col max-[1110px]:px-[0px] max-[1110px]:space-x-[0px] ">
-        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow max-[1110px]:px-[10px] max-[1110px]:self-center max-[1110px]:w-[450px] max-[1110px]:py-[30px]">
+        <div className="flex flex-col bg-white px-[100px] py-[75px] shadow max-[1110px]:px-[10px] max-[1110px]:self-center max-[1110px]:w-[380px] max-[1110px]:py-[30px]">
           <div className="flex flex-col text-[27px] max-[1110px]:self-center">
             Get in Touch
             <hr className="self-start w-[160px] h-[3px] bg-green-500 rounded" />
@@ -101,7 +101,7 @@ export default function Contact() {
               <input
                 type="submit"
                 value="Send message"
-                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:self-end max-[1110px]:w-[320px]"
+                className="flex w-[150px] cursor-pointer justify-center rounded bg-[#007aff] px-5 py-3 align-middle text-white hover:border-[1px] hover:border-[#007aff] hover:bg-white hover:text-[#007aff] max-[1110px]:self-end"
               ></input>
             </form>
           </div>
