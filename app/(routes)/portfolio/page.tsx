@@ -24,7 +24,7 @@ export default function Portfolio() {
         <hr className="self-center w-[120px] h-[3px] bg-green-500 rounded" />
       </div>
 
-      <div ref={carousel } className="flex w-[1020px] mt-[50px] space-x-[30px] overflow-x-scroll no-scrollbar scroll-smooth max-[480px]:w-[450px] max-[480px]:self-center" >
+      <div ref={carousel } className="flex w-[1020px] self-center mt-[50px] space-x-[30px] overflow-x-scroll no-scrollbar scroll-smooth max-[480px]:w-[450px] max-[480px]:self-center" >
         <div
           className={` w-[300px] h-[300px] self-center relative shrink-0`}
           onClick={() =>
@@ -59,7 +59,7 @@ export default function Portfolio() {
         </div>
         
       </div>
-      <div className="flex w-full mt-[30px] px-[50px] justify-between max-[480px]:hidden">
+      <div className="flex mt-[30px] px-[50px] w-[1020px] justify-between self-center  max-[480px]:hidden">
         <div
           className="text-[50px] font-bold text-[#007aff] cursor-pointer"
           onClick={() =>

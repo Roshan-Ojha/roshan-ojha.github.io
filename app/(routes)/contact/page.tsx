@@ -64,7 +64,7 @@ export default function Contact() {
             }}
           />
           <div className="self-center text-[#6c6c6b]">
-            roshanojha65@gmail.com
+            roshanojhaofficial@gmail.com
           </div>
         </div>
       </div>
